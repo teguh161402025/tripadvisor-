@@ -1,27 +1,170 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-color: #f7f7f7;
+  --slide-color: #0e1111;
+  --slide-second-color: #f7f7f7;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-color: #000;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+}
+
+.zoom-background {
+  animation: zoomAnimation 8s linear infinite;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sliderX {
+  0% {
+    transform: translateX(100%);
+  }
+  33.33% {
+    transform: translateX(80%);
+  }
+  66.66% {
+    transform: translateX(60%);
+  }
+  80.66% {
+    transform: translateX(40%);
+  }
+  90% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.slide-animation-white {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(6 95 70) 50%
+  );
+  background-size: 200% 100%;
+  background-position: 0 0;
+  transition: background-position 0.3s ease-out;
+  transition: all 0.25s ease-in;
+}
+
+.group:hover .slide-animation-white {
+  background-position: -100% 0;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.flip-horizontal {
+  transform: scaleX(-1);
+}
+@keyframes slidenavanimation {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slidenav {
+  animation: slidenavanimation 1s ease;
+}
+.slidenavclose {
+  animation: slidenavanimationreverse 1s ease;
+}
+@keyframes slidenavanimationreverse {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease;
+}
+.slide-up-animation-transparent {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: background-position 0.3s ease-out;
+}
+.slide-up-animation {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 50%,
+    #4b544d 50%
+  );
+  background-size: 100% 200%;
+  background-position: 0 0;
+  transition: background-position 0.3s ease-out;
+}
+
+.group:hover .slide-up-animation {
+  background-position: 0 100%;
+}
+
+.group.slide-up-animation {
+  transition: background-position 0.3s ease-in-out;
+}
+.flip-animation {
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.group:hover .flip-animation {
+  transform: rotateY(180deg);
+  opacity: 1;
+}
+
+.progress {
+  animation: fill 2s ease-in-out forwards; /* Animasi nama 'fill', durasi 2 detik, dan efek ease-in-out */
+}
+
+@keyframes fill {
+  from {
+    width: 0; /* Mulai dari 0% */
+  }
+  to {
+    width: 100%; /* Selesai pada 100% */
+  }
 }
