@@ -60,7 +60,7 @@ const Footer = () => {
 
                                 <li className='flex space-x-2 lg:space-x-4 mt-6'><RiMailFill size={24} className='text-emerald-700 hidden md:block' /><span>teguhkiranaberutu@gmail.com</span></li>
                                 <li className='flex space-x-2 lg:space-x-4'><RiPhoneFill size={24} className='text-emerald-700' /><span>+62 88261441557</span></li>
-                                <li className='flex space-x-2 lg:space-x-4'><RiMailFill size={24} className='text-emerald-700' /><span>Medan, Sumatera Utara</span></li>
+                                <li className='flex space-x-2 lg:space-x-4'><RiMapPin2Fill size={24} className='text-emerald-700' /><span>Medan, Sumatera Utara</span></li>
                             </ul>
                         </div>
 

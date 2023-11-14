@@ -57,9 +57,9 @@ const Navigation = () => {
                     <Link href="/About">  <li className=' border-green-700 cursor-pointer group  p-4'>About
                         <div className='h-[2px] w-full  slide-animation-white'></div>
                     </li></Link>
-                    <li className=' border-green-700 cursor-pointer group  p-4'>Contact
+                    <Link href="/Contact"> <li className=' border-green-700 cursor-pointer group  p-4'>Contact
                         <div className='h-[2px] w-full  slide-animation-white'></div>
-                    </li>
+                    </li></Link>
                 </ul>
 
             </div>
@@ -99,9 +99,9 @@ const Navigation = () => {
                         <Link href="/About">  <li className=' border-green-700 cursor-pointer group  p-4'>About
                             <div className='h-[2px] w-full  slide-animation-white'></div>
                         </li></Link>
-                        <li className=' border-green-700 cursor-pointer group  p-4'>Contact
+                        <Link href="/Contact">   <li className=' border-green-700 cursor-pointer group  p-4'>Contact
                             <div className='h-[2px] w-full  slide-animation-white'></div>
-                        </li>
+                        </li></Link>
                     </ul>
                 </div>
 

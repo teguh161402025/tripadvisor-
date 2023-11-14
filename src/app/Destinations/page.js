@@ -10,9 +10,10 @@ function Destination() {
                 </div>
                 <Image className='z-10 fadeOut object-cover '
                     src='/assets/man-landscape-wilderness-walking-person-mountain.jpg'
-                    alt='Mountains'
-                    layout='fill'
+                    alt='man landscape wilderness walking person mountain'
+                    fill
                     quality={100}
+                    priority
                 />
             </div>
             <div className='min-h-[40vh] w-full bg-transparent top-0  relative '>

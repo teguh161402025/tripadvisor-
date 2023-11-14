@@ -12,7 +12,8 @@ function Tours() {
                 <Image className='z-10 fadeOut object-cover '
                     src='/assets/man-landscape-wilderness-walking-person-mountain.jpg'
                     alt='Mountains'
-                    layout='fill'
+                    fill
+                    priority
                     quality={100}
                 />
             </div>
