@@ -33,8 +33,8 @@ function Contact() {
 
             </div>
             <div className=' w-full bg-background relative py-6 lg:px-32 border-b-[1px] border-b-slate-400 '>
-                <div className='container mx-auto p-24 flex flex-row w-full' >
-                    <div className='px-12 w=1/3 space-y-4'>
+                <div className='container mx-auto lg:p-24 p-4 lg:flex lg:flex-row w-full space-y-8' >
+                    <div className='lg:px-12 lg:w=1/3 space-y-4'>
                         <p className='text-4xl font-bold'>Any Question? </p>
                         <p className='text-2xl font-bold'> Feel Free to Contact</p>
 
@@ -55,7 +55,7 @@ function Contact() {
 
                         </div>
                     </div>
-                    <div className='w-2/3'>
+                    <div className='lg:w-2/3'>
                         <form className='w-full space-y-8'>
                             <div className='flex flex-row w-full justify-between space-x-4'>
                                 <input type='text' placeholder='Your Name' className='w-1/2 bg-slate-200 p-4' />
