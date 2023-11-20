@@ -94,14 +94,14 @@ export default function Home() {
           <div className='lg:w-1/2 relative md:flex md:p-4'>
             <Image className='lg:w-[40%] lg:h-[100%] h-[300px]  object-cover lg:absolute lg:rounded-[40px]'
               src={'/assets/landscape-sea-architecture-building-old-city.jpg'}
-              alt='Mountains'
+              alt='landscape sea architecture building old city'
               width={1000}
               height={900}
 
             />
             <Image className='lg:w-[40%] lg:h-[100%] h-[300px] object-cover lg:absolute  top-0 lg:rounded-[40px] lg:translate-x-[60%] lg:translate-y-[20%]'
               src={'/assets/beach-landscape-sea-coast-water-nature.jpg'}
-              alt='Mountains'
+              alt='beach landscape sea coast water nature'
               width={1000}
               height={900}
 
@@ -200,7 +200,7 @@ export default function Home() {
               <ScrollAnimate animation='fade-in-top-left' >
                 <Image className='object-cover h-[120%] rounded-tr-[35%] rounded-bl-[35%] '
                   src={'/assets/person-people-girl-woman-camera-photography.jpg'}
-                  alt='Mountains'
+                  alt='person people girl woman camera photography'
                   width={600}
                   height={600}
 
@@ -209,7 +209,7 @@ export default function Home() {
               <ScrollAnimate delay={200} animation='fade-in-top-right' >
                 <Image className='object-cover h-[120%] rounded-tl-[35%] rounded-br-[35%]'
                   src={'/assets/building-tower-castle-pink-cherry-blossom-temple.jpg'}
-                  alt='Mountains'
+                  alt='building tower castle pink cherry blossom temple '
                   width={800}
                   height={800}
 
@@ -218,7 +218,7 @@ export default function Home() {
               <ScrollAnimate delay={400} animation='fade-in-bottom-left' >
                 <Image className='object-cover h-[120%] rounded-tl-[35%] rounded-br-[35%]'
                   src={'/assets/beach-landscape-sea-coast-water-nature-resort.jpg'}
-                  alt='Mountains'
+                  alt='beach landscape sea coast water nature resort'
                   width={600}
                   height={600}
 
@@ -227,7 +227,7 @@ export default function Home() {
               <ScrollAnimate delay={600} animation='fade-in-bottom-right' >
                 <Image className='object-cover h-[120%] rounded-tr-[35%] rounded-bl-[35%]'
                   src={'/assets/banner-hiking.webp'}
-                  alt='Mountains'
+                  alt='hiking'
                   width={600}
                   height={600}
 
@@ -256,7 +256,7 @@ export default function Home() {
             <div className='relative lg:h-[400px] h-[300px] lg:w-[250px] overflow-hidden  lg:rounded-2xl group '>
               <Image className='lg:w-[40%] lg:h-[100%]  object-cover absolute lg:rounded-2xl z-10 group-hover:scale-125 transform transition-transform duration-300 ease-in-out'
                 src={'/assets/building-tower-castle-pink-cherry-blossom-temple.jpg'}
-                alt='Mountains'
+                alt='building tower castle pink cherry blossom temple'
                 fill
 
               />
@@ -286,7 +286,7 @@ export default function Home() {
             <div className='relative lg:h-[400px] lg:w-[250px] h-[300px] overflow-hidden  lg:rounded-2xl group '>
               <Image className='lg:w-[40%] lg:h-[100%]  object-cover absolute lg:rounded-2xl z-10 group-hover:scale-125 transform transition-transform duration-300 ease-in-out'
                 src={'/assets/landscape-cloud-sky-eiffel-tower-paris-monument.jpg'}
-                alt='Mountains'
+                alt='landscape cloud sky eiffel tower paris monument'
                 fill
 
               />
@@ -315,7 +315,7 @@ export default function Home() {
             <div className='relative lg:h-[400px] lg:w-[250px] h-[300px] overflow-hidden  lg:rounded-2xl group '>
               <Image className='lg:w-[40%] lg:h-[100%]  object-cover absolute lg:rounded-2xl z-10 group-hover:scale-125 transform transition-transform duration-300 ease-in-out'
                 src={'/assets/mountainous-landforms-mountain-body-of-water-natural-landscape-nature-wilderness.jpg'}
-                alt='Mountains'
+                alt='mountainous landforms mountain body of water natural landscape nature wilderness'
                 fill
 
               />
@@ -345,7 +345,7 @@ export default function Home() {
             <div className='relative lg:h-[400px] lg:w-[250px] h-[300px] overflow-hidden  lg:rounded-2xl group '>
               <Image className='lg:w-[40%] lg:h-[100%]  object-cover absolute lg:rounded-2xl z-10 group-hover:scale-125 transform transition-transform duration-300 ease-in-out'
                 src={'/assets/architecture-structure-sky-building-palace-old.jpg'}
-                alt='Mountains'
+                alt='architecture structure sky building palace old'
                 fill
 
               />
@@ -393,7 +393,7 @@ export default function Home() {
               <div className='relative lg:w-[250px] h-[350px] '>
                 <Image className=' absolute object-cover  lg:rounded-2xl  '
                   src={'/assets/architecture-structure-sky-building-palace-old.jpg'}
-                  alt='Mountains'
+                  alt='architecture structure sky building palace old'
                   fill
 
                 />
@@ -419,8 +419,8 @@ export default function Home() {
             <div className='w-full relative lg:flex bg-background lg:rounded-2xl '>
               <div className='relative lg:w-[250px] h-[350px] '>
                 <Image className=' absolute object-cover  lg:rounded-2xl  '
-                  src={'/assets/building-tower-castle-pink-cherry-blossom-temple.jpg '}
-                  alt='Mountains'
+                  src={'/assets/building-tower-castle-pink-cherry-blossom-temple.jpg'}
+                  alt='building tower castle pink cherry blossom temple'
                   fill
 
                 />
@@ -448,7 +448,7 @@ export default function Home() {
               <div className='relative lg:w-[250px] h-[350px] '>
                 <Image className=' absolute object-cover  lg:rounded-2xl  '
                   src={'/assets/landscape-cloud-sky-eiffel-tower-paris-monument.jpg'}
-                  alt='Mountains'
+                  alt='landscape cloud sky eiffel tower paris monument'
                   fill
 
                 />
@@ -475,7 +475,7 @@ export default function Home() {
               <div className='relative lg:w-[250px] h-[350px] '>
                 <Image className=' absolute object-cover  lg:rounded-2xl  '
                   src={'/assets/mountainous-landforms-mountain-body-of-water-natural-landscape-nature-wilderness.jpg'}
-                  alt='Mountains'
+                  alt='mountainous landforms mountain body of water natural landscape nature wilderness'
                   fill
 
                 />

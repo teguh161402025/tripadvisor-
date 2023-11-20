@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <Image className='z-10 fadeOut object-cover'
                     src='/assets/man-landscape-wilderness-walking-person-mountain.jpg'
-                    alt='Mountains'
+                    alt='man landscape wilderness walking person mountain'
                     fill
                     quality={100}
                 />
@@ -42,7 +42,7 @@ function About() {
                         <div className='grid grid-cols-2 gap-2 gap-y-12  auto-cols-max xl:w-1/2 '>
                             <Image className='object-cover h-[120%] rounded-tr-[35%] rounded-bl-[35%] '
                                 src={'/assets/person-people-girl-woman-camera-photography.jpg'}
-                                alt='Mountains'
+                                alt='person people girl woman camera photography'
                                 width={600}
                                 height={600}
                                 quality={100}
@@ -50,7 +50,7 @@ function About() {
 
                             <Image className='object-cover h-[120%] rounded-tl-[35%] rounded-br-[35%]'
                                 src={'/assets/building-tower-castle-pink-cherry-blossom-temple.jpg'}
-                                alt='Mountains'
+                                alt='building tower castle pink cherry blossom temple'
                                 width={800}
                                 height={800}
                                 quality={100}
@@ -58,14 +58,14 @@ function About() {
 
                             <Image className='object-cover h-[120%] rounded-tl-[35%] rounded-br-[35%]'
                                 src={'/assets/beach-landscape-sea-coast-water-nature-resort.jpg'}
-                                alt='Mountains'
+                                alt='beach landscape sea coast water nature resort'
                                 width={600}
                                 height={600}
                                 quality={100}
                             />
                             <Image className='object-cover h-[120%] rounded-tr-[35%] rounded-bl-[35%]'
                                 src={'/assets/banner-hiking.webp'}
-                                alt='Mountains'
+                                alt='hiking'
                                 width={600}
                                 height={600}
                                 quality={100}

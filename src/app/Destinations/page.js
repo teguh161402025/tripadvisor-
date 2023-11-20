@@ -50,7 +50,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/landscape-sea-architecture-building-old-city.jpg'}
-                            alt='Mountains'
+                            alt='landscape sea architecture building old city'
                             width={1000}
                             height={900}
                             quality={100}
@@ -67,7 +67,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/architecture-structure-sky-building-palace-old.jpg'}
-                            alt='Mountains'
+                            alt='architecture structure sky building palace old'
                             width={1000}
                             height={900}
                             quality={100}
@@ -84,7 +84,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/banner-hiking.webp'}
-                            alt='Mountains'
+                            alt='hiking'
                             width={1000}
                             height={900}
                             quality={100}
@@ -101,7 +101,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/beach-landscape-sea-coast-water-nature-resort.jpg'}
-                            alt='Mountains'
+                            alt='Mbeach landscape sea coast water nature resort'
                             width={1000}
                             height={900}
                             quality={100}
@@ -117,7 +117,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/beach-landscape-sea-coast-water-nature.jpg'}
-                            alt='Mountains'
+                            alt='beach landscape sea coast water nature'
                             width={1000}
                             height={900}
                             quality={100}
@@ -134,7 +134,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-full  rounded-[20px]'
                             src={'/assets/landscape-cloud-sky-eiffel-tower-paris-monument.jpg'}
-                            alt='Mountains'
+                            alt='landscape cloud-sky eiffel tower paris monument'
                             width={1000}
                             height={900}
                             quality={100}
@@ -150,7 +150,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/pedestrian-person-woman-road-street-crowd.jpg'}
-                            alt='Mountains'
+                            alt='pedestrian person woman road street crowd'
                             width={1000}
                             height={900}
                             quality={100}
@@ -166,7 +166,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-full  rounded-[20px]'
                             src={'/assets/road-street-town-building-alley-tourist-1295.jpg'}
-                            alt='Mountains'
+                            alt='road street town building alley tourist'
                             width={1000}
                             height={900}
                             quality={100}
@@ -182,7 +182,7 @@ function Destination() {
                         </div>
                         <Image className=' object-cover w-full h-64  rounded-[20px]'
                             src={'/assets/travel-trip.jpg'}
-                            alt='Mountains'
+                            alt='travel trip'
                             width={1000}
                             height={900}
                             quality={100}

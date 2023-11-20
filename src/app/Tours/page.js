@@ -11,7 +11,7 @@ function Tours() {
                 </div>
                 <Image className='z-10 fadeOut object-cover '
                     src='/assets/man-landscape-wilderness-walking-person-mountain.jpg'
-                    alt='Mountains'
+                    alt='/man landscape wilderness walking person mountain'
                     fill
                     priority
                     quality={100}
@@ -43,7 +43,7 @@ function Tours() {
                     <div className='md:w-96 w-70 flex flex-col rounded-xl border-[2px] border-slate-300 overflow-hidden relative group'>
                         <Image className=' object-cover w-full h-64 rounded-t-2xl border-[2px] scale-110 transform group-hover:scale-125 transition-transform duration-300'
                             src={'/assets/architecture-structure-sky-building-palace-old.jpg'}
-                            alt='Mountains'
+                            alt='architecture structure sky building palace old'
                             width={1000}
                             height={900}
                             quality={100}
@@ -86,7 +86,7 @@ function Tours() {
                     <div className='md:w-96 w-70 flex flex-col rounded-xl border-[2px] border-slate-300 overflow-hidden relative group'>
                         <Image className=' object-cover w-full h-64 rounded-t-2xl border-[2px] scale-110 transform group-hover:scale-125 transition-transform duration-300'
                             src={'/assets/banner-hiking.webp'}
-                            alt='Mountains'
+                            alt='hiking'
                             width={1000}
                             height={900}
                             quality={100}
@@ -129,7 +129,7 @@ function Tours() {
                     <div className='md:w-96 w-70 flex flex-col rounded-xl border-[2px] border-slate-300 overflow-hidden relative group'>
                         <Image className=' object-cover w-full h-64 rounded-t-2xl border-[2px] scale-110 transform group-hover:scale-125 transition-transform duration-300'
                             src={'/assets/beach-landscape-sea-coast-water-nature-resort.jpg'}
-                            alt='Mountains'
+                            alt='beach landscape sea coast water nature resort'
                             width={1000}
                             height={900}
                             quality={100}
@@ -173,7 +173,7 @@ function Tours() {
                     <div className='md:w-96 w-70 flex flex-col rounded-xl border-[2px] border-slate-300 overflow-hidden relative group'>
                         <Image className=' object-cover w-full h-64 rounded-t-2xl border-[2px] scale-110 transform group-hover:scale-125 transition-transform duration-300'
                             src={'/assets/building-tower-castle-pink-cherry-blossom-temple.jpg'}
-                            alt='Mountains'
+                            alt='building tower castle pink cherry blossom temple'
                             width={1000}
                             height={900}
                             quality={100}
@@ -216,7 +216,7 @@ function Tours() {
                     <div className='md:w-96 w-70 flex flex-col rounded-xl border-[2px] border-slate-300 overflow-hidden relative group'>
                         <Image className=' object-cover w-full h-64 rounded-t-2xl border-[2px] scale-110 transform group-hover:scale-125 transition-transform duration-300'
                             src={'/assets/road-street-town-building-alley-tourist-1295.jpg'}
-                            alt='Mountains'
+                            alt='road street town building alley tourist'
                             width={1000}
                             height={900}
                             quality={100}
@@ -259,7 +259,7 @@ function Tours() {
                     <div className='md:w-96 w-70 flex flex-col rounded-xl border-[2px] border-slate-300 overflow-hidden relative group'>
                         <Image className=' object-cover w-full h-64 rounded-t-2xl border-[2px] scale-110 transform group-hover:scale-125 transition-transform duration-300'
                             src={'/assets/mountainous-landforms-mountain-body-of-water-natural-landscape-nature-wilderness.jpg'}
-                            alt='Mountains'
+                            alt='mountainous landforms mountain body of water natural landscape nature wilderness'
                             width={1000}
                             height={900}
                             quality={100}
