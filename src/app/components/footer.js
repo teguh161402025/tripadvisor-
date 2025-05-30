@@ -70,7 +70,7 @@ const Footer = () => {
             <div className='w-full bg-emerald-700 p-2 text-center text-background
             '>
 
-                Trpadvisor @ All Copyright 2023
+                Trpadvisor @ All Copyright 2025
             </div>
         </div>
     )
